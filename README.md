@@ -2,8 +2,8 @@ local library = {
 		flags = { },
 		items = { }
 	}
-    if _G.Color == nil then _G.Color = Color3.fromRGB(80, 245, 245) end
-    if _G.Color2 == nil then _G.Color2 = Color3.fromRGB(0, 151, 156) end
+    if _G.Color == nil then _G.Color = Color3.fromRGB(0, 16, 255) end
+    if _G.Color2 == nil then _G.Color2 = Color3.fromRGB(50, 50, 50) end
     -- Services
 	local players = game:GetService("Players")
 	local uis = game:GetService("UserInputService")
